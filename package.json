@@ -2,11 +2,13 @@
   "name": "with-tailwindcss",
   "version": "1.0.0",
   "scripts": {
+    "save": "git add . && git commit -m ' 🔺' && git push -u origin master",
     "dev": "next",
     "build": "next build",
     "start": "next start"
   },
   "dependencies": {
+    "express": "^4.17.1",
     "next": "^9.2.0",
     "react": "^16.12.0",
     "react-dom": "^16.12.0"
